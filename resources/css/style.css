@@ -1,10 +1,31 @@
 body {
     background-color: black;
     text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 header h1  {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: normal;
     font-size: 50px;
     color: white;
+}
+header a, footer a {
+    color: aquamarine;
+    font-size: 16px;
+}
+.subtitle {
+    font-size: 42px;
+    color: white;
+    font-weight: 300;
+}
+.text {
+    color: gray;
+    font-size: 21px;
+}
+footer img {
+    padding-top: 10px;
+}
+#excursion {
+    color:gray;
+    text-align: right;
+    font-size: 21px;
 }
